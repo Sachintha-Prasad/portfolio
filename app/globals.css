@@ -6,6 +6,17 @@
     display: none;
 }
 
+*,
+*::before,
+*::after {
+    outline: none;
+}
+
+a,
+button {
+    outline: none;
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
