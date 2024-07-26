@@ -12,6 +12,9 @@ const config: Config = {
                 center: true,
                 padding: '1.5rem',
             },
+            colors: {
+                'primary-dark-gray': '#2b2b2b',
+            },
         },
     },
     plugins: [],
