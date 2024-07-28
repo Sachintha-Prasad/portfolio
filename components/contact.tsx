@@ -18,7 +18,7 @@ export const Contact = () => {
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ type: 'just' }}
                 >
-                    <h2 className="section-header">My Skills</h2>
+                    <h2 className="section-header">Contact Me</h2>
                     <p className="text-lg text-white">
                         Please contact me through{' '}
                         <a
