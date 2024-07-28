@@ -10,7 +10,7 @@ import { HiOutlineDocumentDownload } from 'react-icons/hi'
 
 export const Hero = () => {
     return (
-        <section className="container mt-[120px] flex items-start justify-center sm:mt-0 sm:min-h-[800px] sm:items-center">
+        <section className="custom-container">
             <div className="flex flex-col items-start gap-8">
                 {/* profile image */}
                 <motion.div
@@ -51,14 +51,13 @@ export const Hero = () => {
                         Hello, I'm Sachintha Prasad
                     </h1>
 
-                    <p className="max-w-[800px] text-gray-300 sm:text-lg">
+                    <p className="text-gray-300 sm:text-lg">
                         I'm an enthusiastic{' '}
                         <span className="font-semibold text-white">
                             full-stack developer
                         </span>{' '}
-                        passionate about creating dynamic and user-friendly web
-                        applications. With a strong foundation in both front-end
-                        technologies, currently I'm focusing on{' '}
+                        with a strong foundation in both front-end and back-end
+                        technologies. Currently I'm focusing on{' '}
                         <span className="font-semibold text-white">
                             Next.js
                         </span>{' '}
@@ -75,7 +74,7 @@ export const Hero = () => {
                 >
                     <Link
                         href="#contact"
-                        className="bg-primary-dark-gray group flex w-full items-center justify-center gap-1 rounded-full px-6 py-2 text-center text-lg text-white transition-transform duration-300 ease-in-out hover:scale-105 focus:scale-105 min-[420px]:w-fit"
+                        className="group flex w-full items-center justify-center gap-1 rounded-full bg-primary-dark-gray px-6 py-2 text-center text-lg text-white transition-transform duration-300 ease-in-out hover:scale-105 focus:scale-105 min-[420px]:w-fit"
                     >
                         Contact me{' '}
                         <FaArrowRightLong className="transition-transform duration-300 ease-in-out group-hover:translate-x-1.5 group-focus:translate-x-1.5" />
