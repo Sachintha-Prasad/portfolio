@@ -1,9 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Rubik } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/header'
 
-const inter = Inter({ subsets: ['latin'] })
+const rubik = Rubik({
+    weight: ['400', '500', '600', '700', '800', '900'],
+    subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
     title: 'Prasad | Full-stack dev',
@@ -19,13 +22,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.className} bg-primary-dark-gray h-[5000px]`}
+                className={`${rubik.className} h-[4000px] bg-primary-dark-gray`}
             >
-                <div className="absolute inset-0 -z-[990] scale-[0.8] opacity-60">
-                    <div className="absolute left-1/2 top-[300px] -z-[998] h-full w-[60%] -translate-x-1/2 rounded-full bg-gradient-to-l from-[#EC4899] to-[#F87174] blur-[15rem]"></div>
-                    <div className="absolute left-1/2 top-[300px] -z-[999] h-full w-[90%] -translate-x-1/2 rounded-full bg-[#6360ff] blur-[12rem]"></div>
+                <div className="fixed inset-0 -z-[990] scale-[0.7] opacity-60">
+                    <div className="absolute left-1/2 top-[200px] -z-[998] h-[300px] w-[60%] -translate-x-1/2 rounded-full bg-gradient-to-l from-[#EC4899] to-[#F87174] blur-[15rem]"></div>
+                    <div className="absolute left-1/2 top-[200px] -z-[999] h-[300px] w-[90%] -translate-x-1/2 rounded-full bg-[#6360ff] blur-[12rem]"></div>
                 </div>
-                {/* <Header /> */}
+                <Header />
                 {children}
             </body>
         </html>
