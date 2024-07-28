@@ -11,7 +11,7 @@ import { HiOutlineDocumentDownload } from 'react-icons/hi'
 export const Hero = () => {
     return (
         <section className="custom-container">
-            <div className="flex flex-col items-start gap-8">
+            <div className="flex w-full flex-col items-start gap-8">
                 {/* profile image */}
                 <motion.div
                     className="relative rounded-full ring-4 ring-white/60"

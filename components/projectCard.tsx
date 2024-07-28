@@ -15,7 +15,7 @@ export const ProjecCard = ({
     liveLink,
 }: ProjectProps) => {
     return (
-        <article className="group flex min-h-[350px] w-full flex-col gap-3 overflow-hidden rounded-lg bg-white/10 outline-none">
+        <article className="group flex h-full w-full flex-col gap-3 overflow-hidden rounded-lg bg-white/10 outline-none">
             <div className="max-h-[200px] overflow-hidden">
                 <Image
                     src={imageUrl}
