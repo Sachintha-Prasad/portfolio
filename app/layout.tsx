@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Rubik } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/header'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const rubik = Rubik({
     weight: ['400', '500', '600', '700', '800', '900'],
@@ -30,6 +31,7 @@ export default function RootLayout({
                 </div>
                 <Header />
                 {children}
+                <SpeedInsights />
             </body>
         </html>
     )
