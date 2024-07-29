@@ -6,6 +6,8 @@ import { FaUserAlt } from 'react-icons/fa'
 import { IoMdMail } from 'react-icons/io'
 import { motion } from 'framer-motion'
 import { sendEmail } from '@/actions/sendEmail'
+import toast from 'react-hot-toast'
+import { error } from 'console'
 
 export const Contact = () => {
     return (
@@ -38,6 +40,7 @@ export const Contact = () => {
                     transition={{ type: 'just' }}
                     action={async (formData) => {
                         await sendEmail(formData)
+                        toast.success('Email sent successfully!')
                     }}
                 >
                     <div>

@@ -3,6 +3,7 @@ import { Rubik } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/header'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Toaster } from 'react-hot-toast'
 
 const rubik = Rubik({
     weight: ['400', '500', '600', '700', '800', '900'],
@@ -31,6 +32,7 @@ export default function RootLayout({
                 </div>
                 <Header />
                 {children}
+                <Toaster position="top-right" />
                 <SpeedInsights />
             </body>
         </html>
