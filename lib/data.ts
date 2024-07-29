@@ -5,6 +5,7 @@ import sunsideLanding from '@/public/sunside-landing.jpeg'
 import expenseTracker from '@/public/expense-track-cover.jpeg'
 import sharkTask from '@/public/shark-task-cover.jpeg'
 import buyBooks from '@/public/buy-books-cover.png'
+import nexPay from '@/public/nexpay-cover.png'
 
 export const links = [
     {
@@ -45,7 +46,7 @@ export const projectsData = [
         description:
             'NexPay Is a cutting-edge digital payment application designed to revolutionize how users manage theirnancial transactions with a focus on convenience, security, and versatility.',
         tags: ['React Native', 'Node JS', 'Mongo DB'],
-        imageUrl: expenseTracker,
+        imageUrl: nexPay,
         gitLink: 'https://github.com/Shehan-lakshitha/NexPay',
         linkedinLink:
             'https://www.linkedin.com/posts/shehan-lakshitha-8ab6a9218_nexpay-digitalpayments-fintech-ugcPost-7185841894319382529-oYuH?utm_source=share&utm_medium=member_desktop',
