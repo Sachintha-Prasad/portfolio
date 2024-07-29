@@ -66,7 +66,7 @@ export const projectsData = [
     {
         title: 'Buy Books website',
         description:
-            'InternIT is a user-friendly internship posting platform I am developing to cover all aspects of full stackdevelopment. It is an ongoing project, with plans to expand and add more functionalities untildeployment.',
+            'BuyBooks is a modern and user-friendly online bookstore built with the MERN stack (MongoDB, Express.js, React, and Node.js). It offers a seamless shopping experience, allowing users to browse, search, and purchase a wide range of books. With a robust backend and an intuitive frontend, BuyBooks ensures efficient performance and a smooth user interface for book enthusiasts.',
         tags: ['React', 'Tailwind', 'Express JS', 'Mongo DB'],
         imageUrl: buyBooks,
         gitLink: 'https://github.com/Buy-Books/buybook-webproject',
