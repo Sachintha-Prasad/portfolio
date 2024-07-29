@@ -41,10 +41,22 @@ export const projectsData = [
         liveLink: '',
     },
     {
+        title: 'NexPay E-wallet application',
+        description:
+            'NexPay Is a cutting-edge digital payment application designed to revolutionize how users manage theirnancial transactions with a focus on convenience, security, and versatility.',
+        tags: ['React Native', 'Node JS', 'Mongo DB'],
+        imageUrl: expenseTracker,
+        gitLink: 'https://github.com/Shehan-lakshitha/NexPay',
+        linkedinLink:
+            'https://www.linkedin.com/posts/shehan-lakshitha-8ab6a9218_nexpay-digitalpayments-fintech-ugcPost-7185841894319382529-oYuH?utm_source=share&utm_medium=member_desktop',
+        liveLink:
+            'https://www.figma.com/proto/5RyJToeVRXMqLljkrLIFbH/Nexpay?node-id=13-36&starting-point-node-id=5%3A8&t=XVQlCTv8mNU4lU94-1',
+    },
+    {
         title: 'Expense Tracker V1',
         description:
-            'InternIT is a user-friendly internship posting platform I am developing to cover all aspects of full stackdevelopment. It is an ongoing project, with plans to expand and add more functionalities untildeployment.',
-        tags: ['React', 'Tailwind'],
+            'Expense Tracker v1 is a modern expense tracking application built with React.js, Tailwind CSS, and Firebase. It allows users to securely log in with their Google account and track income and expenses across devices. The application leverages custom hooks and React Context API for real-time data management.',
+        tags: ['React', 'Tailwind', 'Firebase'],
         imageUrl: expenseTracker,
         gitLink: 'https://github.com/Sachintha-Prasad/Expense-tracker-v1',
         linkedinLink:
@@ -64,7 +76,7 @@ export const projectsData = [
     {
         title: 'Time tracking dashboard',
         description:
-            'InternIT is a user-friendly internship posting platform I am developing to cover all aspects of full stackdevelopment. It is an ongoing project, with plans to expand and add more functionalities untildeployment.',
+            'Time tracking dashboard is a Frontend mentor challenge, a perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch,they provided a JSON data file to practice working with data.',
         tags: ['React', 'Tailwind'],
         imageUrl: timeTrack,
         gitLink:
@@ -75,7 +87,7 @@ export const projectsData = [
     {
         title: 'Tip Calculator',
         description:
-            'InternIT is a user-friendly internship posting platform I am developing to cover all aspects of full stackdevelopment. It is an ongoing project, with plans to expand and add more functionalities untildeployment.',
+            'Tip calculator app challenge in Frontend mentor. This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!',
         tags: ['React', 'Tailwind'],
         imageUrl: tipCal,
         gitLink:
@@ -86,7 +98,7 @@ export const projectsData = [
     {
         title: 'Sunnyside agency landing page',
         description:
-            'InternIT is a user-friendly internship posting platform I am developing to cover all aspects of full stackdevelopment. It is an ongoing project, with plans to expand and add more functionalities untildeployment.',
+            'Agency landing page This challenge will be a perfect test of layout and responsive skills. There is a tiny bit of JS for the mobile menu,.',
         tags: ['React', 'Tailwind'],
         imageUrl: sunsideLanding,
         gitLink:
@@ -97,8 +109,8 @@ export const projectsData = [
     {
         title: 'Shark Task TODO',
         description:
-            'InternIT is a user-friendly internship posting platform I am developing to cover all aspects of full stackdevelopment. It is an ongoing project, with plans to expand and add more functionalities untildeployment.',
-        tags: ['HTML', 'Tailwind'],
+            'Shark Task TODO is a sleek and efficient todo application built with HTML, JavaScript, and Tailwind CSS. Designed to streamline your task management, Shark Task offers a user-friendly interface that allows you to effortlessly add, edit, and delete tasks. Its minimalistic design, powered by Tailwind CSS, ensures a visually appealing and intuitive user experience, making it the perfect tool to keep your daily tasks organized and on track.',
+        tags: ['HTML', 'Tailwind', 'Javascript'],
 
         imageUrl: sharkTask,
         gitLink:
