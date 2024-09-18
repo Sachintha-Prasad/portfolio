@@ -76,7 +76,7 @@ export const Header = () => {
                             <FaLinkedin />
                         </a>
                         <div
-                            className={`cursor-pointer rounded-full p-2 text-lg sm:hidden ${navTextColorClass}`}
+                            className={`cursor-pointer rounded-full text-lg sm:hidden ${navTextColorClass}`}
                             onClick={handleMenuToggle}
                         >
                             <FaBars className="block sm:hidden" />
@@ -89,7 +89,7 @@ export const Header = () => {
                 className={`fixed inset-0 h-screen w-full bg-white/60 backdrop-blur-lg transition-transform duration-300 ease-in-out sm:hidden ${!isMenuOpen ? '-translate-x-full' : 'translate-x-0'}`}
             >
                 <div
-                    className="fixed right-6 top-6 cursor-pointer p-2 text-lg text-primary-dark-gray sm:hidden"
+                    className="fixed right-6 top-6 cursor-pointer text-lg text-primary-dark-gray sm:hidden"
                     onClick={handleMenuToggle}
                 >
                     <FaX className="block sm:hidden" />
